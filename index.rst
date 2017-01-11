@@ -48,3 +48,5 @@ Bazooka was created for this precise situation, to be able to package an applica
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
+
+   Installing
