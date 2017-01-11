@@ -30,7 +30,7 @@ As you can see there are multiple steps and each one is subject to error:
 
 1. You may forget to update your local source code copy with the latest changes from your VCS or you have locally some files which were not checked in, so the application you’re building is different from the one everyone else was testing
 2. You may have subtle differences in your local configuration like a different compiler or may forget to run a part of the build, like javascript minification and concatenation
-3. You may not have access to the folder used for publishing in production or the one who has is currently on vacation
+3. You may not have access to the folder used for publishing or the one who has is currently on vacation
 4. Changing the configuration files manually for each enviroment has some risks like forgetting to change a connection string that now points to a database in another enviroment, or worse you don’t remember all the modifications to the configuration so you never touch the configs
 5. You may forget to update the database with the new table or stored procedure you have just created or forget to restart the web server.
 
