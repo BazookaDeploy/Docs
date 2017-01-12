@@ -17,7 +17,7 @@ Database
 
 The first thing to install will be the database. SQL Server 2008 ad 2012 have been extensively tested but newer versions should be fine nonetheless.
 
-To install the database, simply create a new Database in you SQL Server instance and then apply the *dacpac* file inside the **database** package downloaded from Github (If yu don't know how to apply a dacpac file a guide can be found  `here<http://blogs.msmvps.com/deborahk/deploying-a-dacpac-with-sql-server-management-studio/>`_).
+To install the database, simply create a new Database in you SQL Server instance and then apply the *dacpac* file inside the **database** package downloaded from Github (If you don't know how to apply a dacpac file a guide can be found    `here <http://blogs.msmvps.com/deborahk/deploying-a-dacpac-with-sql-server-management-studio/>`_ ) .
 
 Controller
 -----------
