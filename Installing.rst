@@ -32,7 +32,7 @@ For more options you can consult the Topshelf `docs <https://topshelf.readthedoc
 
 After installation you can proceed to edit the configuration file to change the connection string to the previously created database then start the Controller service.
 
-.. Note:: Make sure that the account running the service can connect to SQL server and the database. Yous system administrator may want to create a dedicated user
+.. Note:: Make sure that the account running the service can connect to SQL server and the database. Your system administrator may want to create a dedicated user
 
 Web site
 ----------
