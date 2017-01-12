@@ -11,7 +11,7 @@ This is the documentation site for the Bazooka deploy system. If you were search
 What is Bazooka?
 ----------------
 
-Bazooka is an Application Release Automation (ARA) Tool, which helps you to deploy your applications in an automated, repeatable and reliable way managing all the error-prone steps usually done by a human.
+Bazooka is an **Application Release Automation (ARA)** Tool, which helps you to deploy your applications in an automated, repeatable and reliable way managing all the error-prone steps usually done by a human.
 
 
 Why Bazooka?
@@ -34,11 +34,11 @@ As you can see there are multiple steps and each one is subject to error:
 4. Changing the configuration files manually for each enviroment has some risks like forgetting to change a connection string that now points to a database in another enviroment, or worse you don’t remember all the modifications to the configuration so you never touch the configs
 5. You may forget to update the database with the new table or stored procedure you have just created or forget to restart the web server.
 
-While points 3, 4 and 5 may seem severe as your deployment is stopped or your application is throwing exceptions due to wrong application or system configurations point 1 and 2 are the real problem as the deployed application is now a snowflake that cannot be recreated for testing or rollback in case of emergency.
+While points **3**, **4** and **5** may seem severe as your deployment is stopped or your application is throwing exceptions due to wrong application or system configurations point **1** and **2** are the real problem as the deployed application is now a snowflake that cannot be recreated for testing or rollback in case of emergency.
 
 As you can easily see each of these steps introduce complexity in your deployment process and a risk of making an error, especially when tired or under pressure.
 
-Now multiply these steps for maybe three or four enviroments (Test, UAT, Staging and Production) and for ten to twenty applications (not too many, especially if you’re going the microservices road) and you have a problem on your hands not to mention all the time subtracted to other activities.
+Now multiply these steps for maybe three or four enviroments (Test, UAT, Staging and Production) and for ten to twenty applications (not too many, for a mid-size business) and you have a problem on your hands not to mention all the time subtracted to other activities.
 
 The only solution to this problem is to completely automate your application deployment, with the objective of being able to go from a version in your VCS to deploying your application without any manual intervention.
 
