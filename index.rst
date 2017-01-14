@@ -45,8 +45,18 @@ The only solution to this problem is to completely automate your application dep
 Bazooka was created for this precise situation, to be able to package an application and deploy it reliably and automatically across different enviroments without any manual intervention.
 
 
+How does it work?
+------------------
+
+The idea behind how Bazooka works is really simple:
+
+1. Package your application after it has been built by your build system in a format that allows versioning (as it turns out NuGet packages work very well for this)
+2. When you want to deploy your application select the version you want to publish and let Bazooka deploy it according to the configured steps
+
+
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
 
    Installing
+   Configuration
