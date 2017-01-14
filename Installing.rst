@@ -57,7 +57,7 @@ The last part of the system is the **Agent** which will have to be installed on 
 
 To install an Agent on a machine the first thing to do is reserve the 9000 port which it will use to listen for commands from the controller. This can be done with the  `netsh command <https://msdn.microsoft.com/it-it/library/windows/desktop/cc307223.aspx>`_.
 
-Once reserved the port the service can be installed in the same way the **COntroller** was installed
+Once reserved the port the service can be installed in the same way the **Controller** was installed
 
 
 
