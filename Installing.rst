@@ -32,11 +32,33 @@ For more options you can consult the Topshelf `docs <https://topshelf.readthedoc
 
 After installation you can proceed to edit the configuration file to change the connection string to the previously created database then start the Controller service.
 
-.. Note:: Make sure that the account running the service can connect to SQL server and the database. Your system administrator may want to create a dedicated user
+.. Note:: Make sure that the account running the service can connect to SQL server and the database. Your system administrator may want to create a dedicated user to tailor its permissions
 
 Web site
 ----------
 
+The Web site is a common MVC Application so to install it you will first need to configure an IIS Web Site to install it. After having configured the website you can simply unzip the content of the **Web** archive in the publish directory and proceed to modify the Web.config file to suit your needs. 
+
+The most important parameters to configure are:
+
+DataContext 
+  The connection string to the database. Change it to point where you created the database
+activeDirectory
+  Activates active directory authentication instead of the standard form authentication. 
+adDomain
+  If you choose to authenticate with active directory this must be set to the Active Directory Domain you users will belong to
+
 Agent
 ----------
+
+The last part of the system is the **Agent** which will have to be installed on every machine where you will deploy your apps. Its role is simple: it will listen for commands from the controller and execute them to complete the deploys.
+
+.. Note:: You may want first to discuss with your system administrator under what account the Agent will run. As it will need to execute scrips and access specific directories he may want to taylor the necessari permission with dedicated accounts
+
+To install an Agent on a machine the first thing to do is reserve the 9000 port which it will use to listen for commands from the controller. This can be done with the  `netsh command <https://msdn.microsoft.com/it-it/library/windows/desktop/cc307223.aspx>`_.
+
+Once reserved the port the service can be installed in the same way the **COntroller** was installed
+
+
+
 
