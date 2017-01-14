@@ -60,3 +60,4 @@ The idea behind how Bazooka works is really simple:
 
    Installing
    Configuration
+   Walktrough
