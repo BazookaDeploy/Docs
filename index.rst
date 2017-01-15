@@ -62,3 +62,4 @@ The idea behind how Bazooka works is really simple:
    Configuration
    Walktrough
    Packaging
+   Deploy
