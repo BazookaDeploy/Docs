@@ -35,8 +35,28 @@ Here on the left we can see, for every enviroment, a **Tasks** tab which will al
 
 Next, click on the **Tasks** tab for an enviroment. Here you can see the list of task that comprise your deploy. Click on the **Create new task** button and choose the **Deploy task**.
 
+Next insert the necessary info for the task :
 
+[Name]
+  The name of the task, useful to distinguish them in the list
+[Machine]
+  The agent to use for the deploy
+[Package name]
+  The name of the nuget package containing your application
+[Directory]
+  The remote directory where the package will be copied
+[Repository]
+  The place where the package can be downloade. It can be a nuget gallery o a simple network folder but must be reachable from the agent
+  
+Once done click the **Create** button and you will see the created tassk on the left. Now we are ready for our first deploy.
 
 
 Your first deploy
 -------------------------
+
+To deploy our application we can simply return to the **Dashboard** by clicking the link in the Header. here we will se our new application and for each enviroment a cell indicating the currently deployed version and a **deploy** button.
+
+
+By clicking on the deploy button you will see the deploy dialog where you can select the version to deploy. Choose the preferred version and click the deploy button.
+
+Your deploy is now started. You can go to the **Deployments** tab to see your deploy and click on it to see the logs and its advancement
