@@ -37,15 +37,15 @@ Next, click on the **Tasks** tab for an enviroment. Here you can see the list of
 
 Next insert the necessary info for the task :
 
-[Name]
+Name
   The name of the task, useful to distinguish them in the list
-[Machine]
+Machine
   The agent to use for the deploy
-[Package name]
+Package name
   The name of the nuget package containing your application
-[Directory]
+Directory
   The remote directory where the package will be copied
-[Repository]
+Repository
   The place where the package can be downloade. It can be a nuget gallery o a simple network folder but must be reachable from the agent
   
 Once done click the **Create** button and you will see the created tassk on the left. Now we are ready for our first deploy.
