@@ -38,7 +38,6 @@ Creating a package is really straightforward and can be easily automated and inc
 A **nuspec** file is simply an xml file with the nuspec extension that tells Nuget how to create the package. To begin you can simply take this as an example and modify it for your project:
 
 .. code-block:: xml
-
 <package>
  <metadata>
   <id>MyAwesomeWebSite</id>
