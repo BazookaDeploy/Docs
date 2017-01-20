@@ -40,7 +40,6 @@ A **nuspec** file is simply an xml file with the nuspec extension that tells Nug
 
 .. code:: xml
 
-<?xml version="1.0"?>
 <package >
   <metadata>
     <id>MyAwesomeWebSite</id>
