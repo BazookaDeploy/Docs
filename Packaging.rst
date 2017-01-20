@@ -39,24 +39,23 @@ A **nuspec** file is simply an xml file with the nuspec extension that tells Nug
 
 
 .. code:: xml
-
 <?xml version="1.0"?>
 <package >
-  <metadata>
-    <id>MyAwesomeWebSite</id>
-    <version>$version$</version>
-    <owners>Awesome Inc</owners>
-    <description>My Awesome Web Site</description>
-  </metadata>
-  <files>
-    <file src="PATH\TO\FOLDER\**\*.*" target="" />
-  </files>
+<metadata>
+<id>MyAwesomeWebSite</id>
+<version>$version$</version>
+<owners>Awesome Inc</owners>
+<description>My Awesome Web Site</description>
+</metadata>
+<files>
+<file src="PATH\TO\FOLDER\**\*.*" target="" />
+</files>
 </package>
 
 To adapt this example to your specific case you have to modify:
 
 **id tag**
-  change the content of this tag to the name of the application contained in the package (no spaces or characters not allowed in URLS, this is a [nuget convention](https://docs.nuget.org/create/nuspec-reference))
+  change the content of this tag to the name of the application contained in the package (no spaces or characters not allowed in URLS, this is a nuget convention)
 **version tag**
   the $version$ syntax means that this is a placeholder that will be replaced when building. Better leave this here and specify it later
 **owners tag**
@@ -64,7 +63,7 @@ To adapt this example to your specific case you have to modify:
 **description tag**
   A description of the package. It's only a description and can be omitted.
 **files tag**
-  This tag and all it's children specify what files will be added to the package. You can replacce PATH\TO\FOLDER with the path where all the applications file can be found but leave the trailing \**\*.* as that means that all the files will be recursively added.
+  This tag and all it's children specify what files will be added to the package. You can replacce PATH\TO\FOLDER with the path where all the applications file can be found but leave the trailing \\**\\*.* as that means that all the files will be recursively added.
 
 
 Once you have created the nuspec file to create the package you just have to call the Nuget executable in this way
