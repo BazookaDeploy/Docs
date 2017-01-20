@@ -42,15 +42,15 @@ A **nuspec** file is simply an xml file with the nuspec extension that tells Nug
 
 <?xml version="1.0"?>
 <package >
-<metadata>
-<id>MyAwesomeWebSite</id>
-<version>$version$</version>
-<owners>Awesome Inc</owners>
-<description>My Awesome Web Site</description>
-</metadata>
-<files>
-<file src="PATH\TO\FOLDER\**\*.*" target="" />
-</files>
+  <metadata>
+    <id>MyAwesomeWebSite</id>
+    <version>$version$</version>
+    <owners>Awesome Inc</owners>
+    <description>My Awesome Web Site</description>
+  </metadata>
+  <files>
+    <file src="PATH\TO\FOLDER\**\*.*" target="" />
+  </files>
 </package>
 
 To adapt this example to your specific case you have to modify:
