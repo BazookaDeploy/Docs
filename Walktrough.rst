@@ -13,7 +13,13 @@ Optionally you can define groups of applications to more easily organize them vi
 Deployments
 -------------------------
 
-The second tab and one of the most used is the **Deployments** tab.
+The second tab and one of the most used is the **Deployments** tab. In this tab you can see your last deployments. For each deployment the first column indicates its state while on the rest of the line you can see the application / Enviroment where the deploy is happening, the user who launched it and the relative time it started.
+
+
+By clicking on a deploy we can see its status in more detail. If the deploy is still running its status will be automatically refreshed every 10 seconds.
+
+
+On the top left corner a drop-down will allow you to view older deployments
 
 Enviroments
 ---------------------------
