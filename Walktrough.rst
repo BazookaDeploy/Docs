@@ -31,6 +31,22 @@ In this page you can create new Enviroments by clicking the **Create new envirom
 Applications
 -------------------------
 
+The **Applications** section allows you at a glance to view all the configured application in your system. Normally you will see only the applications for which you are an administrator or all if you arez global administratore but you can always see them all by using the drop down on the top left corner. If you have defined application groups the apps will be groupd by them allowing for a clearer view.
+
+By  clicking on the **Create new application** button you can create a new application (requires administrator privileges).
+
+By clicking on an application we can go to its configuration page where we will found a tabbed interface. On the right side of the page we can see some tabs:
+
+**Overview**
+  gives some general infos about the application and allows you to set the application group
+**Permissions**
+  allows you to define an application administrator, someone with full privileges only for this application
+**Tasks**
+  one tab for each enviroment this will allow you to define your deployment process and its composition in tasks
+**Users**
+  one tab for each enviroment allows you to give permissions to publish to specific users or groups
+
+
 Statistics
 ------------------------------
 
