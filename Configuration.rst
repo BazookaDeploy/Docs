@@ -25,7 +25,7 @@ The next step is enviroments definition and the addition of at least one agent p
 
 Adding an agent
 -------------------------
-Once all the enviroments have been created you can add enviroments to any enviroment by clicking on the **Add new Agent** button.
+Once all the enviroments have been created you can add agents to any enviroment by clicking on the **Add new Agent** button.
 
 Configuring your application
 ------------------------------
