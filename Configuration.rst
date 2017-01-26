@@ -8,7 +8,7 @@ Creating your first user
 
 The first thing to do is to login into Bazooka. Point your browser at the URL assigned during website creation and you will reach the login screen.
 
-.. image:: images/login.png
+.. image:: _static/images/login.png
 
 The first thing to do is to create your first user by clicking the **Create an account** link. You will see the account creation page where you can input the new user data. 
 
