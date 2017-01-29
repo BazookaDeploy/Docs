@@ -23,7 +23,7 @@ Manually deploying an application is a complex and error-prone multi-step proces
 2. Building the application with your build system
 3. Copying the build output to the desired server/network share
 4. Modifying the configuration files for the enviroment, changing connection strings and other parameters,
-4. Executing all other needed steps such as configuring site options, updating the database, …
+5. Executing all other needed steps such as configuring site options, updating the database, …
 
 
 As you can see there are multiple steps and each one is subject to error:
