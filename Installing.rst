@@ -10,6 +10,8 @@ Bazooka is a web application composed ot three main parts:
 - a **Controller** which is a windows service dedicated to running tasks like sccheduled deployments, cache clleanups, periodic health checks and log compactions
 - one or more **Agents** to be installed on the machines where you will deploy your applications. They will execute all the commands from the controller allowing deploys to be executed
 
+.. image:: _static/images/diagram.png
+
 To install Bazooka you must first download the  `latest release <https://github.com/BazookaDeploy/Bazooka/releases>`_ from Github and then we can start.
 
 Database
