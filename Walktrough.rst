@@ -88,6 +88,8 @@ The configuration section contains configuration for the entire system, as oppos
   will allow you to configure groups of users for easier handling of permissions
 **Application Groups**
   will allow you to create application groups to group your applications
-
-
+**Task templates**
+  will allow you to create, configure and modify task templates, a skeleton of a task where you can specify parameters to fill when used
+  
+  
 .. image:: _static/images/configTour.png
