@@ -1,7 +1,7 @@
 Deploy
 ===================================
 
-Bazooka allows you to define your application deploy process by composing different tasks. Each task can be of a differente type and have different options to allow you to customize your deploy.
+Bazooka allows you to define your application deploy process by composing different tasks. Each task can be of a different type and have different options to allow you to customize your deploy.
 
 Deploy task
 ---------------------------
@@ -55,3 +55,27 @@ This task accepts the following parameters:
   The name of the database to deploy
 **Agent**
   The agent which will execute the deploy. Note that this agent must have suitable permissions to access and modify the database
+
+
+
+Templated task
+---------------------------
+
+The most recent type of task added. By configuring a template for your task in the **Configuration** section or using one of the already defined ones you can specify the needed parameters to execute a task based on a task template.
+
+You will have to specify the following parameters:
+
+**Name**
+  The name of the task
+**Task**
+  The task template to use
+**Package**
+  The name of the package containing your application
+**Repository**
+  The repository where the package can be found
+**Agent**
+  The agent which will execute the deploy.
+  
+Along with all the parameters specified by the task template
+
+
